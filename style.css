@@ -110,6 +110,7 @@ button {
   height: 150px;
   border: #3882f6 4px solid;
   border-radius: 14px;
+  box-shadow: rgb(99 99 99 / 20%) 1px 3px 11px 2px;
 }
 .quote{
   background: #e5e7eb;
@@ -132,4 +133,36 @@ blockquote{
   font-weight: 800;
   align-self: flex-end;
   margin-right: 46px;
+}
+.cta{
+  background: #f9faf8;
+}
+.cta__inner {
+  padding: 80px 0;
+
+}
+.cta__content {
+  display: flex;
+  background: #3882f6;
+  padding: 32px 32px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.cta__text {
+  margin-right: 40px;
+}
+.call{
+  color: #f9faf8;
+  font-weight: 600;
+  font-size: 21px;
+}
+.cta__button {
+  border: #f9faf8 2px solid;
+}
+.copyright {
+  background: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 22px 0;
 }
