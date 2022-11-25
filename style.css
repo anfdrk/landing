@@ -80,7 +80,37 @@ button {
   height: 300px;
   border-radius: 10px;
 }
-
+.info {
+  background: #f9faf8;
+  padding: 40px 0 50px;
+}
+.info__title {
+  text-align: center;
+  margin: 0 0 40px;
+  color: #1f2937;
+  font-size: 36px;
+}
+.info__items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.info__item {
+  width: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info__item p {
+  color: #1f2937;
+  text-align: center;
+}
+.info__thumb {
+  width: 150px;
+  height: 150px;
+  border: #3882f6 4px solid;
+  border-radius: 14px;
+}
 
 
 blockquote{
