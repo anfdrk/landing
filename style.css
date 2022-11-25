@@ -111,11 +111,25 @@ button {
   border: #3882f6 4px solid;
   border-radius: 14px;
 }
+.quote{
+  background: #e5e7eb;
+}
+.quote__inner {
+  display: flex;
+  flex-direction: column;
+  color: #1f2937;
+  padding: 100px 184px;
 
-
+}
 blockquote{
   font-family: Roboto;
   font-style: italic;
   font-weight: 300;
   font-size: 36px;
+  margin: 0;
+}
+.author {
+  font-weight: 800;
+  align-self: flex-end;
+  margin-right: 46px;
 }
